@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect | Raj Vardhan Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">Raj Vardhan Singh</a>
+        <nav aria-label="Main menu">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="connect.html" class="active">Connect</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <div class="page-head">
+        <h1>Connect</h1>
+        <p>Want to talk about a project, an internship or an idea? Reach out.</p>
+      </div>
+
+      <div class="grid">
+        <section class="panel">
+          <h2>Find me online</h2>
+          <ul class="links">
+            <li><strong>Email</strong><a href="mailto:raajjsinghhh01@gmail.com">raajjsinghhh01@gmail.com</a></li>
+            <li><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/raj-vardhan-singh1" target="_blank" rel="noopener">raj-vardhan-singh1</a></li>
+            <li><strong>GitHub</strong><a href="https://github.com/rajvardhansingh01" target="_blank" rel="noopener">rajvardhansingh01</a></li>
+            <li><strong>CV</strong><a href="Raj_Vardhan_Singh_CV.pdf" download>Download my CV (PDF)</a></li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h2>Send a message</h2>
+          <form action="mailto:raajjsinghhh01@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+
+            <button type="submit" class="btn">Send message</button>
+          </form>
+        </section>
+      </div>
+
+      <div class="page-actions">
+        <a class="btn btn-outline" href="experience.html">Previous: Experience</a>
+        <a class="btn" href="index.html">Go to home page</a>
+        <a class="btn btn-outline" href="index.html">Next: Home</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Raj Vardhan Singh. Personal resume website.</p>
+    </footer>
+
+    <form
+      class="rating"
+      action="mailto:raajjsinghhh01@gmail.com?subject=Website%20rating"
+      method="post"
+      enctype="text/plain"
+    >
+      <p>Rate this website</p>
+      <label><input type="radio" name="rating" value="Meh" required /> Meh</label>
+      <label><input type="radio" name="rating" value="Nice" /> Nice</label>
+      <label><input type="radio" name="rating" value="Perfect" /> Perfect</label>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </body>
+</html>
